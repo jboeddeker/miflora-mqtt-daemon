@@ -14,7 +14,6 @@ from configparser import ConfigParser
 from unidecode import unidecode
 from miflora.miflora_poller import MiFloraPoller, MI_BATTERY, MI_CONDUCTIVITY, MI_LIGHT, MI_MOISTURE, MI_TEMPERATURE
 from btlewrap import available_backends, BluepyBackend, GatttoolBackend, PygattBackend, BluetoothBackendException
-
 import paho.mqtt.client as mqtt
 import sdnotify
 
